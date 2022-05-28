@@ -5,7 +5,8 @@ h1 {
 }
 
 p,
-a {
+a,
+dl {
   font-family: "Montserrat", sans-serif;
   font-size: $default-font-size;
 }
@@ -51,3 +52,4 @@ a:hover {
     transform: translateX(2px);
   }
 }
+

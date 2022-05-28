@@ -23,8 +23,6 @@
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 </head>
 
-<!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
-
 <body>
   <div id="top"></div>
 
@@ -48,12 +46,6 @@
     <div class="container">
       <h2 class="section-title load-hidden">About me</h2>
       <div class="row about-wrapper">
-        <!--<div class="col-md-6 col-sm-12">
-          <div class="about-wrapper__image load-hidden">
-            <img alt="Profile Image" class="img-fluid rounded shadow-lg" height="auto" width="300px"
-              src="assets/profile.jpg" alt="Profile Image" />
-          </div>
-        </div>-->
         <div class="col-md-3 col-sm-12">
 
         </div>
@@ -82,20 +74,38 @@
         <div class="col-md-3 col-sm-12">
 
         </div>
-        <div class="col-md-6 col-sm-12 text-center">
+        <div class="col-md-3 col-sm-12">
           <div class="about-wrapper__info load-hidden">
             <p class="about-wrapper__info-text">
-              This is where you can describe about yourself. The more you
-              describe about yourself, the more chances you can!
+            <h3><b>Frontend</b></h3>
             </p>
             <p class="about-wrapper__info-text">
-              Extra Information about you! like hobbies and your goals.
+              <dl>
+                <dt>React</dt>
+                <dd>Hook , Context , Ref</dd>
+                <dt>Vue</dt>
+                <dd>Hook , Context , Ref</dd>
+                <dt>Bootstrap</dt>
+                <dd>v3.1 , v5.1</dd>
+              </dl>
             </p>
-            <span class="d-flex mt-3">
-              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume" href="assets/resume.pdf">
-                View Resume
-              </a>
-            </span>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-12 text-center">
+          <div class="about-wrapper__info load-hidden">
+            <p class="about-wrapper__info-text">
+            <h3><b>Backend</b></h3>
+            </p>
+            <p class="about-wrapper__info-text">
+              <dl>
+                <dt>React</dt>
+                <dd>Hook , Context , Ref</dd>
+                <dt>Vue</dt>
+                <dd>Hook , Context , Ref</dd>
+                <dt>Bootstrap</dt>
+                <dd>v3.1 , v5.1</dd>
+              </dl>
+            </p>
           </div>
         </div>
         <div class="col-md-3 col-sm-12">
@@ -192,7 +202,6 @@
   });
   function handleTyping() {
     var typed = new Typed('.element', {
-      // Waits 1000ms after typing "First"
       strings: ["Software Engineer", ".Net Developer", "Web Developer"],
       typeSpeed: 50,
       starDelay: 200,
